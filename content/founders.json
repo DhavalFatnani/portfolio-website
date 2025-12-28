@@ -1,0 +1,24 @@
+{
+  "title": "Built With Founders",
+  "description": "Collaborating with innovative teams to build exceptional products",
+  "testimonials": [
+    {
+      "quote": "Trusted Dhaval with autonomy to explore, fail fast, learn fast, and grow systems beyond the obvious.",
+      "author": "Arcit Nanda",
+      "role": "CEO & Co-Founder",
+      "company": "KNOT"
+    },
+    {
+      "quote": "Challenged Dhaval’s thinking at every step — clarity always won, and execution followed.",
+      "author": "Rachit Bansal",
+      "role": "CTO & Co-Founder",
+      "company": "KNOT"
+    }
+  ],
+  "stats": {
+    "projects": "10+",
+    "companies": "1+",
+    "years": "2+"
+  }
+}
+

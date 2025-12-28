@@ -1,0 +1,63 @@
+# Portfolio Website Development Rules
+
+## Component Naming
+- **Components**: MUST use PascalCase (e.g., `HeroSection.tsx`, `ContactModal.tsx`)
+- All React component files must be named in PascalCase
+
+## Folder Naming
+- **Folders**: MUST use kebab-case (e.g., `case-studies/`, `hero-section/`)
+- All directory names must be in kebab-case format
+
+## Magic UI Component Priority
+- **Magic UI First**: Always check Magic UI (https://magicui.design) for existing components before creating custom ones
+- Prefer using Magic UI components as base, then customize as needed
+- If a Magic UI component exists for the use case, use it rather than building from scratch
+
+## Motion and Animation Requirements
+- **Motion-First**: Every interactive element MUST include intentional animations
+- Use Framer Motion for all animations
+- Store reusable animation variants in `lib/animations/motion-variants.ts`
+- Support `prefers-reduced-motion` for accessibility
+- All scroll-triggered animations must use intersection observer patterns
+- Animations should guide attention and support storytelling
+
+## Dark & Light Theme Rules
+- **Theme-Aware**: All components MUST respect dark/light themes
+- Use CSS variables for all colors (defined in `globals.css`)
+- Never hardcode colors - always use theme variables
+- Theme system uses `next-themes` with system preference detection
+- Manual toggle must be available and stored in localStorage
+- Smooth transitions between themes (CSS transitions)
+
+## Content-Driven Architecture
+- **No Hardcoded Copy**: All textual content MUST come from content files
+- Text content should be loaded from JSON/MDX files in `content/` directory
+- Use TypeScript interfaces for type-safe content loading
+- Content files: `hero.json`, `metrics.json`, `skills.json`, `founders.json`, `site-settings.json`
+- Case studies should use MDX format in `content/case-studies/`
+
+## Accessibility
+- All interactive elements must have proper ARIA labels
+- Keyboard navigation must work for all interactive components
+- Use semantic HTML elements
+- Ensure sufficient color contrast in both themes
+- Support screen readers
+
+## SEO
+- Use proper meta tags in layout
+- Implement structured data where appropriate
+- Use semantic HTML markup
+- Optimize images with alt text
+
+## Performance
+- Optimize images (use Next.js Image component)
+- Code split appropriately
+- Minimize bundle size
+- Use dynamic imports for heavy components where appropriate
+
+## Code Quality
+- Use TypeScript for type safety
+- Follow React best practices (hooks, functional components)
+- Keep components focused and reusable
+- Extract utilities to appropriate `lib/` or `hooks/` directories
+

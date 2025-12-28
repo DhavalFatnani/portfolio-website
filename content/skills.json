@@ -1,0 +1,102 @@
+{
+  "title": "Skills & Thinking",
+  "description": "Core competencies and frameworks I use to solve complex problems and deliver outcomes across product, operations, and systems.",
+  "categories": [
+    {
+      "name": "Product Operations & Execution",
+      "skills": [
+        {
+          "name": "Product Strategy",
+          "level": "expert",
+          "description": "Defining clear vision, metrics, and prioritized roadmaps aligned to business impact."
+        },
+        {
+          "name": "Process Optimization",
+          "level": "expert",
+          "description": "Streamlining workflows and operations to reduce waste and increase reliability."
+        },
+        {
+          "name": "Cross-Functional Collaboration",
+          "level": "expert",
+          "description": "Aligning teams, stakeholders, and leadership toward shared goals."
+        },
+        {
+          "name": "Metrics & Analytics",
+          "level": "advanced",
+          "description": "Driving decisions using data, dashboards, and success metrics."
+        }
+      ]
+    },
+    {
+      "name": "Systems Thinking & Infrastructure",
+      "skills": [
+        {
+          "name": "Systems Architecture Understanding",
+          "level": "advanced",
+          "description": "Designing and reasoning about scalable, resilient systems and architectural trade-offs."
+        },
+        {
+          "name": "Automation & Tooling",
+          "level": "advanced",
+          "description": "Building automated workflows and internal tools to eliminate friction."
+        },
+        {
+          "name": "Infrastructure Awareness",
+          "level": "intermediate",
+          "description": "Understanding cloud infrastructure, environments, DevOps principles, and trade-offs."
+        },
+        {
+          "name": "Platform & Tool Evaluation",
+          "level": "expert",
+          "description": "Assessing tools and platforms to match operational and product needs."
+        }
+      ]
+    },
+    {
+      "name": "Technical Fluency & Coordination",
+      "skills": [
+        {
+          "name": "Project & Delivery Management",
+          "level": "expert",
+          "description": "Leading Agile, Scrum, and execution cadences to ensure predictable delivery."
+        },
+        {
+          "name": "Data Analysis & Insights",
+          "level": "advanced",
+          "description": "SQL, event funnels, BI tools, and translating data into actionable insights."
+        },
+        {
+          "name": "API Integration & Web Architecture",
+          "level": "intermediate",
+          "description": "Working with REST, GraphQL, webhooks, and understanding integration flows."
+        },
+        {
+          "name": "Documentation & Knowledge Transfer",
+          "level": "expert",
+          "description": "Creating clear, reusable documentation for processes and systems."
+        }
+      ]
+    }
+  ],
+  "thinking": {
+    "title": "How I Think",
+    "frameworks": [
+      {
+        "name": "Systems Thinking",
+        "description": "Focus on interdependencies and holistic solutions rather than isolated fixes."
+      },
+      {
+        "name": "First Principles",
+        "description": "Break problems down to fundamentals to avoid assumptions and find real leverage."
+      },
+      {
+        "name": "User-Centric Decision Making",
+        "description": "Start with user needs and work backwards to define success criteria and solutions."
+      },
+      {
+        "name": "Iterative Improvement",
+        "description": "Continuous learning through releasing, measuring, and refining outcomes."
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Impact at Scale",
+  "description": "Metrics that matter",
+  "metrics": [
+    {
+      "label": "Orders Scaled",
+      "value": "500+",
+      "description": "Daily orders capacity built from first order to 500+."
+    },
+    {
+      "label": "Systems Built",
+      "value": "10+",
+      "description": "Operational systems & internal tooling launched."
+    },
+    {
+      "label": "Cross-Functional Initiatives",
+      "value": "20+",
+      "description": "Projects led with product, ops, and engineering."
+    },
+    {
+      "label": "Founder Exposure",
+      "value": "2+",
+      "description": "Direct partnership with founders for strategy & execution."
+    }
+  ]
+}

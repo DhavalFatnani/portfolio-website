@@ -1,0 +1,27 @@
+{
+  "siteName": "Dhaval Fatnani — Product-Ops & Systems Operator",
+  "siteDescription": "Portfolio of Dhaval Fatnani — Product-Ops & Systems Operator experienced in strategy execution, operational systems, and product execution.",
+  "author": "Dhaval Fatnani",
+  "email": "dhavalfatnani02@gmail.com",
+  "siteUrl": "https://dhavalfatnani.vercel.app",
+  "social": {
+    "linkedin": "https://linkedin.com/in/dhavalfatnani",
+    "twitter": "https://twitter.com/dhavalfatnani",
+    "github": "https://github.com/dhavalfatnani"
+  },
+  "theme": {
+    "defaultMode": "system",
+    "enableManualToggle": true
+  },
+  "seo": {
+    "title": "Product-Ops & Systems Operator Portfolio",
+    "description": "Building scalable systems and optimizing product operations",
+    "keywords": ["product operations", "systems operator", "product strategy", "operations"],
+    "ogImage": "/og-image.jpg"
+  },
+  "recruiterCTA": {
+    "enabled": true,
+    "text": "Recruiters: Let's Talk",
+    "description": "Looking for a Product-Ops expert? Let's connect."
+  }
+}

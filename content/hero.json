@@ -1,0 +1,20 @@
+{
+ "headline": "Dhaval Fatnani",
+  "subheadline": "Product-Ops & Systems Operator",
+  "description": "I help startups turn ambiguity into shipped outcomes — from operational systems, product execution to strategic execution partnerships.",
+  "cta": {
+    "primary": {
+      "text": "See Impact",
+      "href": "#case-studies"
+    },
+    "secondary": {
+      "text": "Talk to Me",
+      "href": "#contact"
+    }
+  },
+  "scrollIndicator": {
+    "text": "Scroll to explore",
+    "enabled": true
+  }
+}
+
